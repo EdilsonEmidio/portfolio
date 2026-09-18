@@ -37,21 +37,3 @@ Portfólio interativo de **Edilson Emidio de Espindola Filho** (Desenvolvedor de
    ```
    Os arquivos compilados estarão na pasta `dist/`.
 
----
-
-## 🌐 Publicação no GitHub Pages
-
-O projeto já está 100% configurado para o GitHub Pages:
-- O arquivo `vite.config.js` já inclui `base: './'`, permitindo que scripts e estilos sejam carregados em qualquer subdiretório do GitHub Pages (`https://edilsonemidio.github.io/portfolio/`).
-- O fluxo `.github/workflows/deploy.yml` compila e publica automaticamente o site a cada `git push` na branch `main`.
-
-### Ativando no GitHub:
-1. Acesse seu repositório no GitHub: `https://github.com/EdilsonEmidio/portfolio`.
-2. Vá em **Settings** > **Pages**.
-3. Na opção **Source**, selecione **GitHub Actions**.
-4. Faça o push do código:
-   ```bash
-   git commit -m "feat: portfolio completo em React e Tailwind CSS"
-   git push origin main
-   ```
-5. Em poucos instantes, o GitHub Actions publicará o site online!
