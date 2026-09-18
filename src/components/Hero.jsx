@@ -7,7 +7,6 @@ import {
   Check,
   MapPin,
   Sparkles,
-  Camera,
   Layers,
   GraduationCap,
   ExternalLink
@@ -52,7 +51,6 @@ export default function Hero() {
             {/* Main Name & Title */}
             <div className="space-y-2">
               <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
-                Olá, eu sou{' '}
                 <span className="bg-gradient-to-r from-emerald-400 via-cyan-300 to-sky-400 bg-clip-text text-transparent">
                   Edilson Emidio
                 </span>
@@ -155,7 +153,7 @@ export default function Hero() {
                 <div className="w-full h-full rounded-2xl overflow-hidden bg-slate-950/60 border border-slate-800 flex items-center justify-center relative">
                   {!imgError ? (
                     <img
-                      src="./avatar.jpg"
+                      src="./avatar.png"
                       alt={personalInfo.name}
                       onError={() => setImgError(true)}
                       className="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"
@@ -179,14 +177,7 @@ export default function Hero() {
                 </div>
 
               </div>
-
-              {/* Photo customization notice pill */}
-              <div className="mt-3 text-center">
-                <span className="inline-flex items-center gap-1 text-[11px] text-slate-400 bg-slate-900/80 border border-slate-800/80 px-3 py-1 rounded-full">
-                  <Camera className="w-3 h-3 text-cyan-400" />
-                  <span>Espaço para foto: basta adicionar <code className="text-cyan-300">avatar.jpg</code></span>
-                </span>
-              </div>
+              
             </div>
 
           </div>

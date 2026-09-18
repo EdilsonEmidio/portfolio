@@ -51,23 +51,6 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        {/* Brand / Monogram */}
-        <a
-          href="#inicio"
-          className="group flex items-center gap-2.5 text-left focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded-lg p-1"
-        >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center font-mono font-bold text-slate-950 text-base shadow-md shadow-emerald-500/20 group-hover:scale-105 transition-transform">
-            &lt;EE/&gt;
-          </div>
-          <div>
-            <span className="block font-bold text-slate-100 group-hover:text-emerald-400 transition-colors leading-tight text-base sm:text-lg">
-              {personalInfo.shortName}
-            </span>
-            <span className="block text-xs text-slate-400 font-mono">
-              Full Stack Dev
-            </span>
-          </div>
-        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-1 bg-slate-900/60 border border-slate-800/80 px-3 py-1.5 rounded-full backdrop-blur-md">
@@ -122,7 +105,7 @@ export default function Navbar() {
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label={isOpen ? 'Fechar Menu' : 'Abrir Menu'}
-          className="md:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800 transition-colors"
+          className="md:hidden ml-auto p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800 transition-colors"
         >
           {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
