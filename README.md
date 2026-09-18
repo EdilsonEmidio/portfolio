@@ -2,35 +2,6 @@
 
 Portfólio interativo de **Edilson Emidio de Espindola Filho** (Desenvolvedor de Software Full Stack), construído com **React**, **JavaScript**, **Tailwind CSS** e **Vite**, configurado e otimizado para deploy contínuo no **GitHub Pages**.
 
----
-
-## 🎨 Destaques do Design & Recursos
-
-- **Tema Noturno Harmônico**: Paleta *Obsidian Slate* com iluminação ambiente em tons de esmeralda (`emerald-400`), ciano (`cyan-400`) e safira, com superfícies em *glassmorphism* (`backdrop-blur-md`).
-- **Espaço para Foto de Perfil**:
-  - Área em destaque com moldura neon e gradiente animado no Hero.
-  - Para adicionar sua foto real: basta salvar sua foto como `avatar.jpg` dentro da pasta `public/` (ou seja, `public/avatar.jpg`). O portfólio a detectará e exibirá automaticamente!
-  - Caso ainda não tenha foto, um avatar SVG moderno já fica ativo por padrão.
-- **Vitrine Interativa de Projetos**:
-  - Filtros dinâmicos: *Todos*, *Full Stack*, *Frontend*, *IA & Otimização*.
-  - Modal interativo com aprofundamento técnico em cada projeto (arquitetura MVC, modelagem relacional, segurança JWT, regras de negócio e contêineres Docker).
-  - Os 4 sistemas citados no currículo:
-    1. **Acadigitus** (STI - UNIVASF): PHP/Laravel + Livewire + FluxUI + PostgreSQL + Docker.
-    2. **PresenSys** (Faculdade & Escola Local): React SPA + React Router + Node.js (Express) + PostgreSQL.
-    3. **E-Commerce Multi-Perfil**: Java (Spring Boot) + Spring Security + JWT + MariaDB + React.
-    4. **Sistema Especialista com IA**: React + Python (Flask) + Scikit-learn + Algoritmos Genéticos.
-- **Habilidades & Competências**:
-  - Barra de pesquisa interativa em tempo real e filtros por categoria (Linguagens, Backend, Frontend, Banco de Dados, Arquitetura, DevOps/IA).
-- **Linha do Tempo & Formação**:
-  - Trajetória com nós luminosos e cronologia das experiências.
-  - Graduação em Ciência da Computação pela UNIVASF, hackathons e cursos de extensão.
-- **Contato em 1 Clique**:
-  - Botão interativo para copiar e-mail (`edilsonemidio93@gmail.com`) com toast de confirmação.
-  - Botão direto para WhatsApp (`(87) 991368259`).
-  - Links diretos para GitHub e LinkedIn.
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Frontend**: [React 19](https://react.dev/), [Vite](https://vite.dev/)
